@@ -1,11 +1,15 @@
-import os
-import sys
-import subprocess
+#!/usr/bin/env python3
+
+
 # edit this line to point to blender binary
 #  example:
 #  blender_dir = r"C:\Program Files\Blender Foundation\Blender\blender.exe"
 blender_dir = r"C:\Program Files\Blender Foundation\Blender\blender.exe"
 
+
+import os
+import sys
+import subprocess
 
 script_dir = os.path.dirname(os.path.realpath(__file__))
 
